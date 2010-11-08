@@ -22,6 +22,10 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, device/htc/hero/device_hero_us.mk)
+$(call inherit-product, device/common/gps/gps_eu_supl.mk)
+
+PRODUCT_PACKAGES += \
+    VoiceDialer
 
 # Install the features available on this device.
 PRODUCT_COPY_FILES += \
@@ -34,6 +38,10 @@ PRODUCT_COPY_FILES += \
 
 
 PRODUCT_PROPERTY_OVERRIDES := \
+    keyguard.no_require_sim=true \
+    ro.ril.hsxpa=2 \
+    ro.ril.hsupa.category = 5 \
+    ro.ril.def.agps.mode = 2 \
     ro.media.dec.jpeg.memcap=10000000
     
 PRODUCT_PROPERTY_OVERRIDES += \
