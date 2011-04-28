@@ -34,6 +34,7 @@ PRODUCT_PACKAGES += \
     hero-keypad.kcm \
     sensors.hero \
     lights.hero \
+    lights.msm7k \
     gralloc.msm7k \
     copybit.msm7k \
     gps.hero \
