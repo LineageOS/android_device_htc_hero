@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAD3///7M\u003d",
+        "filename": "prebuilt/30cpumem",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 14
+      },
+      "writtenOn": "2011-04-29T02:47:10Z",
+      "side": 1,
+      "message": "why? we change /sys fs, not /system",
+      "revId": "5c2ae1141ab93024c3b236290d0362f5a31f962e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAD3///7I\u003d",
+        "filename": "prebuilt/30cpumem",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 14
+      },
+      "writtenOn": "2011-04-29T02:47:10Z",
+      "side": 1,
+      "message": "all chown are already done by init.hero.rc or init.rc, right?",
+      "revId": "5c2ae1141ab93024c3b236290d0362f5a31f962e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
