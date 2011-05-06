@@ -15,12 +15,6 @@ ro.telephony.default_network=0
 wifi.interface=tiwlan0
 wifi.supplicant_scan_interval=60
 
-# Modify MMS APN retry timer from 5s to 2s.
-ro.gsm.2nd_data_retry_config = max_retries=3, 2000, 2000, 2000
-
-# To make the phone ring faster when dialing out
-ro.telephony.call_ring.delay=1000
-
 #windows management
 ro.sf.lcd_density=160
 windowsmgr.max_events_per_sec=60
@@ -62,5 +56,5 @@ persist.service.mount.playsnd = 0
 
 #dalvik options (more tweaks)
 dalvik.vm.execution-mode=int:jit
-dalvik.vm.heapsize=24m
+dalvik.vm.heapsize=32m
 dalvik.vm.dexopt-flags=m=y 
