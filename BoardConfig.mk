@@ -105,6 +105,9 @@ BOARD_NO_RGBX_8888 := true
 
 JS_ENGINE := v8
 
+# Dex pre-optimization (ODEX)
+WITH_DEXPREOPT := true
+
 # Stagefright fully enabled
 BUILD_WITH_FULL_STAGEFRIGHT := true
 
